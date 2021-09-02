@@ -55,3 +55,13 @@ CREATE TABLE proponente(cpf varchar(14) not null primary key,
                         password varchar(40) not null,
                         user_name varchar(20) not null);
  ```
+
+
+##### Leilão
+```SQL
+CREATE TABLE leilao(idLeilao int not null auto_increment primary key,
+	            dataExpiracao date not null,
+                    status ENUM('ABERTO', 'FINALIZADO', 'EXPIRADO', 'INATIVO', 'RETORNA_TODOS_LEILOES') not null,
+                    lanceMinimo double not null,
+                    item varchar(30) not null);
+```
