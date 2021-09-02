@@ -4,9 +4,9 @@
 
 ##  Features do sistema: 
 
-- [x] Listagem de Leilões, com filtro. O filtro deve permitir filtrar por leilões ABERTOS,
+1. Listagem de Leilões, com filtro. O filtro deve permitir filtrar por leilões ABERTOS,
 FINALIZADOS, EXPIRADOS e INATIVO;
-- [x] Um leilão é considerado INATIVO quando este é cadastrado no sistema;
+2. Um leilão é considerado INATIVO quando este é cadastrado no sistema;
 3. Um leilão é considerado ABERTO quando este está apto a receber lances;
 4. Um leilão expira com base na sua data de expiração. Desta forma o leilão assume o
 estado EXPIRADO;
