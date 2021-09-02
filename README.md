@@ -35,9 +35,10 @@ Este sistema manipula seus dados a partir do estabelecimento de uma conexão JDB
 
 #### Script das tabelas utilizadas:
 
-```
+##### Lances:
+```SQL
 CREATE TABLE lance(
-	id_lance int not null auto_increment primary key,
+    id_lance int not null auto_increment primary key,
     valor_lance double not null,
     id_proponente varchar(14) not null,
     id_leilao int not null,
