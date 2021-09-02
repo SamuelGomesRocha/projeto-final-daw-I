@@ -2,7 +2,7 @@
 
 ### Projeto final da disciplina de Desenvolvimento Web I
 
-##Features do sistema: 
+##  Features do sistema: 
 
 1. Listagem de Leilões, com filtro. O filtro deve permitir filtrar por leilões ABERTOS,
 FINALIZADOS, EXPIRADOS e INATIVO;
