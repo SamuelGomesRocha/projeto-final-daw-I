@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+
+
+html, body {
+	
+	background-color: #868686;
+	width: 100%;
+	
+}
+
+
+h2 {
+    cursor: default;
+    text-align: right;
+    float: right;
+    margin-bottom: 30px;
+    color: #4d4d4d;
+    font-size: 14px;
+}
+
+
+#sair:hover, sair:focus{
+	color: red;
+	-webkit-transition: background-color 0.4s, color 0.4s, border 0.4s;
+  	transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+
+.title, title:link, title:visited{
+	background-color: rgb(39, 39, 39);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 37px;
+    color: rgb(131, 129, 129);
+    margin-bottom: 10px;
+    padding: 25px;
+ 	transition: color 0.4s, background-color 0.4s, border 0.4s;
+}
+
+.title:hover, title:focus {
+	color: #ffffbb;
+  	background: black;
+  	-webkit-transition: background-color 0.4s, color 0.4s, border 0.4s;
+  	transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.btn {
+  font-family: avenir, helvetica, roboto, arial, sans-serif;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
+  width: 100px;
+  height: 40px;
+  font-size: 10px;
+  cursor: pointer;
+  background: #707070;
+  border: 1px solid gray;
+  outline: none;
+
+}
+
+.btn:hover, btn:focus{
+	color: gray;	
+	background: #3c3c3c;
+	-webkit-transition: background-color 1s, color 1s, border 1s;
+	transition: 0.2s ease-in-out;
+  
+}
+
+
+
+.listinha{
+	align-content: space-between;
+	margin-left: 2%;
+}
+
+
+#tableLances {
+	float: right;
+}
+
+table {
+
+	width: 500px;
+	float: right;
+	margin-right: 20px;
+}
+
+thead {
+	background-color: #a0a0a0;
+	font-weight: bold;
+}
+
+
+tbody{
+	background-color: #e0e0e0;
+}
+
+td, tr:hover {
+	padding: 7px;
+	text-align: center;
+}
+
+tr:hover {
+	background-color: #adadad;
+}
+
+#colecao-content{
+	
+	align-content: space-between;
+	margin-left: 2%;
+	
+}
+
+#trLeilas{
+	cursor: pointer;
+}
+
+.formCadCliente {
+	
+	align-content: space-between;
+	margin-left: 2%;
+}
+
+

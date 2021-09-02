@@ -1,0 +1,268 @@
+@charset "ISO-8859-1";
+
+h1, h1:hover {
+	cursor: pointer;
+	width: 280px;
+}
+
+h3 {
+    cursor: default;
+    text-align: right;
+    float: right;
+    margin-bottom: 30px;
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+h2, h2:link, h2:visited{
+	margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #e4e4e4;
+ 	transition: color 0.4s, background-color 0.4s, border 0.4s;
+}
+
+h2:hover, h2:focus {
+	color: #ffffbb;
+  	-webkit-transition: background-color 0.4s, color 0.4s, border 0.4s;
+  	transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+
+.title, title:link, title:visited{
+	background-color: rgb(39, 39, 39);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 37px;
+    color: rgb(131, 129, 129);
+    margin-bottom: 10px;
+    padding: 25px;
+ 	transition: color 0.4s, background-color 0.4s, border 0.4s;
+}
+
+.title:hover, title:focus {
+	color: #ffffbb;
+  	background: black;
+  	-webkit-transition: background-color 0.4s, color 0.4s, border 0.4s;
+  	transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+#sair:hover, sair:focus{
+	color: red;
+	-webkit-transition: background-color 0.4s, color 0.4s, border 0.4s;
+  	transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+body {
+	background-color: #868686;
+}
+
+#corpao-da-bicha {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  min-height: 50vh;
+  background-color: #868686;
+}
+
+
+
+section {
+	margin: 30px;
+	padding: 20px;
+	width: 400px;
+	background-color: #b7b7b7;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: black;
+	margin-right: 50%;
+}
+
+
+.input-container {
+	width: 100%;
+	position: relative;
+}
+
+#container-leilas {
+	width: 400px;
+	margin-top: 10px;
+	padding: 20px;
+	margin-right: 20%;
+}
+
+
+h4 {
+	cursor: default;
+	text-align: center;
+	margin-bottom: 30px;
+	color: #4d4d4d;
+	font-size: 20px;
+}
+
+h5 {
+	cursor: default;
+	text-align: right;
+	margin-bottom: 1px;
+	color: #bf0000;
+	font-size: 12px;
+}
+
+input {
+	border: 0;
+	outline: none;
+	transition: .2s ease-in-out;
+	border-bottom: 2px solid #585858;
+	box-sizing: border-box;
+	background-color: transparent;
+	font-size: 1px;
+}
+
+label {
+  top: -10px;
+  left: 0; right: 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 10px;
+  cursor: text;
+  transition: .2s ease-in-out;
+  box-sizing: border-box;
+  
+ }
+
+
+input,
+label {
+  width: 100%;
+  height: 2.8rem;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  color: #4d4d4d;
+}
+
+
+#input-button {
+
+	margin-bottom: 1px;
+}
+
+#input-button:hover, #input-button:focus {
+	border-bottom: 2px solid #6a6a6a;
+	margin-bottom: 1px;
+}
+
+input:hover,
+input:focus {
+  border-bottom: 2px solid white;  
+}
+
+
+input:hover + label,
+input:focus + label
+{
+  color: white;
+  font-size: .8rem;
+  top: -10px;
+  pointer-events: none;
+}
+
+.btn {
+  font-family: avenir, helvetica, roboto, arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5em;
+  margin-left: 10%;
+  width: 80%;
+  height: 40px;
+  font-size: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #8a8a8a;
+  outline: none;
+}
+
+.btn:hover, btn:focus{
+	color: white;	
+	background: #6a6a6a;
+	-webkit-transition: background-color 1s, color 1s, border 1s;
+	transition: 0.2s ease-in-out;
+}
+
+#btn-lances {
+	float: left;
+}
+
+
+
+
+.listinha{
+	align-content: space-between;
+	margin-left: 1%;
+}
+
+
+#tableLances {
+	float: right;
+}
+
+table {
+
+	width: 500px;
+	float: right;
+	margin-right: 20px;
+}
+
+thead {
+	background-color: #a0a0a0;
+	font-weight: bold;
+}
+
+
+tbody{
+	background-color: #e0e0e0;
+}
+
+td, tr:hover {
+	padding: 7px;
+	text-align: center;
+}
+
+tr:hover {
+	background-color: #adadad;
+}
+
+#colecao-content{
+	
+	align-content: space-between;
+	margin-left: 2%;
+	
+}
+
+#trLeilas{
+	cursor: pointer;
+}
+
+.formCadCliente {
+	
+	align-content: space-between;
+	margin-left: 2%;
+}
+
+ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+	padding-top: 2px;
+  padding-left: 16px;
+ color: #4d4d4d;
+}
+
+li::before {
+  content: "*"; /* Insert content that looks like bullets */
+  padding-right: 3px;
+  color: #4d4d4d; /* Or a color you prefer */
+}
