@@ -49,7 +49,7 @@ CREATE TABLE lance(
 ##### Proponente
 ```SQL
 CREATE TABLE proponente(cpf varchar(14) not null primary key,
-				    nome varchar(80) not null,
+		        nome varchar(80) not null,
                         email varchar(80) not null,
                         telefone varchar(14),
                         password varchar(40) not null,
