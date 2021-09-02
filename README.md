@@ -26,3 +26,7 @@ e-mail parabenizando-o pelo arremate.
 13. O participante deve ser previamente cadastrado.
 14. Uma feature importante, é permitir que o usuário tenha acesso à lista de lances de um
 determinado leilão.
+
+## Instalação do sistema
+
+### Banco de dados:
