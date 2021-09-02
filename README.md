@@ -33,6 +33,10 @@ determinado leilão.
 
 Este sistema manipula seus dados a partir do estabelecimento de uma conexão JDBC com um banco de dados MySQL v8.
 
+#### Configurações do MYSQL
+
+https://www.alura.com.br/artigos/mysql-do-download-e-instalacao-ate-sua-primeira-tabela?gclid=Cj0KCQjw7MGJBhD-ARIsAMZ0eevrNOip1O9hW3VOvr5bO0UvyzbPzPsuHclYD7LhK734FpBkgUWA5WwaAs6tEALw_wcB
+
 #### Scripts utilizados para criar as tabelas:
 
 ##### Lances
