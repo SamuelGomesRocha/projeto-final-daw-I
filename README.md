@@ -14,10 +14,11 @@ estado EXPIRADO;
 6. O estado FINALIZADO é atribuído a um leilão a partir do estado EXPIRADO ou do
 estado ABERTO.
 7. A partir do momento que um leilão assume o estado ABERTO, este pode receber
-lances. Sobre os lances as seguintes regras devem ser observadas:
-8. Um lance nunca pode assumir um valor menor que o lance mínimo de um leilão;
-9. Um lance nunca pode assumir um valor igual ao último lances;
-10. Um mesmo participante não pode efetuar dois lances seguidos. No entanto, o
+lances. 
+8. Sobre os lances as seguintes regras devem ser observadas:
+   a. Um lance nunca pode assumir um valor menor que o lance mínimo de um leilão;
+   b. Um lance nunca pode assumir um valor igual ao último lances;
+   c. Um mesmo participante não pode efetuar dois lances seguidos. No entanto, o
 participante pode efetuar quantos lances quiser.
 11. Quando um leilão assumir o estado FINALIZADO, o ganhador do leilão deve receber um
 e-mail parabenizando-o pelo arremate.
