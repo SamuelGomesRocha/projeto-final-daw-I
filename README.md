@@ -35,7 +35,7 @@ Este sistema manipula seus dados a partir do estabelecimento de uma conexão JDB
 
 #### Scripts utilizados para criar as tabelas:
 
-##### Lances:
+##### Lances
 ```SQL
 CREATE TABLE lance(
     id_lance int not null auto_increment primary key,
@@ -45,3 +45,13 @@ CREATE TABLE lance(
     constraint fk_proponente FOREIGN KEY (id_proponente) references proponente(cpf) on delete cascade on update cascade,
     constraint fk_leilao foreign key (id_leilao) references leilao(idLeilao) on delete cascade on update cascade);
 ```
+
+##### Proponente
+```SQL
+CREATE TABLE proponente(cpf varchar(14) not null primary key,
+				    nome varchar(80) not null,
+                        email varchar(80) not null,
+                        telefone varchar(14),
+                        password varchar(40) not null,
+                        user_name varchar(20) not null);
+ ```
