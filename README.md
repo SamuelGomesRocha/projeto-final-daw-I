@@ -33,7 +33,7 @@ determinado leilão.
 
 Este sistema manipula seus dados a partir do estabelecimento de uma conexão JDBC com um banco de dados MySQL v8.
 
-#### Script das tabelas utilizadas:
+#### Scripts utilizados para criar as tabelas:
 
 ##### Lances:
 ```SQL
