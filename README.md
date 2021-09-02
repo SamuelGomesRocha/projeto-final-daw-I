@@ -29,4 +29,18 @@ determinado leilão.
 
 ## Instalação do sistema
 
-### Banco de dados:
+### Banco de dados
+
+Este sistema manipula seus dados a partir do estabelecimento de uma conexão JDBC com um banco de dados MySQL v8.
+
+#### Script das tabelas utilizadas:
+
+```
+CREATE TABLE lance(
+	id_lance int not null auto_increment primary key,
+    valor_lance double not null,
+    id_proponente varchar(14) not null,
+    id_leilao int not null,
+    constraint fk_proponente FOREIGN KEY (id_proponente) references proponente(cpf) on delete cascade on update cascade,
+    constraint fk_leilao foreign key (id_leilao) references leilao(idLeilao) on delete cascade on update cascade);
+```
