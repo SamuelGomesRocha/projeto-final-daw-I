@@ -8,7 +8,7 @@ public class ConnectionDao {
 
 	private String jdbcURL = "jdbc:mysql://localhost:3306/daw_i_leilao?useTimezone=true&serverTimezone=GMT";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "alohomora";
+	private String jdbcPassword = "password";
 	private String jdbcDriver = "com.mysql.cj.jdbc.Driver";
 	
 	protected Connection getConnection() {
